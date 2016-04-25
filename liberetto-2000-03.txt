@@ -140,26 +140,18 @@ Reply-To: editors@imatix.com
    more people have gotten into using XSL to do real work, the more they
    start smiling when we explain what GSL is and how it works.
 
-   Look at a reasonably complex GSL application like our iAF 
-framework (see
-   the white papers section on imatix.com), and it's hard to see how 
-this
+   Look at a reasonably complex GSL application like our iAF framework (see
+   the white papers section on imatix.com), and it's hard to see how this
    could work using any of the existing or proposed XSL tools.
 
-   It's my conviction that the industry standard approaches embodied 
-in
-   XSL are overweight and corrupted by partisan influence, 
-especially that
-   of Microsoft.  This is a shame, because XML brings real and 
-tangible
-   benefits, and yet the bulk of industry efforts to exploit it 
-appear to
+   It's my conviction that the industry standard approaches embodied in
+   XSL are overweight and corrupted by partisan influence, especially that
+   of Microsoft.  This is a shame, because XML brings real and tangible
+   benefits, and yet the bulk of industry efforts to exploit it appear to
    be inefficient, if not misdirected.
 
-   My guess is that we'll start to see hybrid approaches that use 
-some XSL
-   techniques mixed with scripting languages (maybe JavaScript or 
-Perl),
+   My guess is that we'll start to see hybrid approaches that use some XSL
+   techniques mixed with scripting languages (maybe JavaScript or Perl),
    at which stage we start to see something like GSLgen emerge.
 
 

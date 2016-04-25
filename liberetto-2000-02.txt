@@ -1,0 +1,441 @@
+From: "Pieter Hintjens" <ph@imatix.com>
+Subject: Liberetto V/2
+Date: 17 February 2000 7:15:45 NZDT
+To: "Liberetto" <editors@imatix.com>
+Reply-To: editors@imatix.com
+
+    =
+--- === ---------------------------------------------------------------------
+ =======    -L- -I- -B- -E- -R- -E- -T- -T- -O-                February 2000
+=========
+ =======    The iMatix Newsletter                           Volume V Issue 2
+--- === ---------------------------------------------------------------------
+    =              Copyright (c) 2000 iMatix Corporation - distribute freely
+                                        Back issues at http://www.imatix.com
+                                             Comments to: editors@imatix.com
+
+   Programming -- Technology -- Finite State Machines -- News -- Other Stuff
+
+
+== COMMENT ---...-.-...-.--...-.--...-.-...-.....---..-....--.--..-.-.---.--
+
+   I spent the last week or so in Milwaukee, Wisconsin, explaining to a
+   group of IT and business people from a large US corporation what we
+   were proposing to build for them, and how.  The story is that this
+   company has decided to create a back-office order and supply network
+   using the Internet, and Internet applications, and iMatix will be the
+   company that builds it for them.
+
+   To some extent, we were the only people crazy enough to think we could
+   do the job in the timeframe demanded.  More concretely, in a business
+   where careers are built in months, and 'experts' are judged on their
+   haircuts, we were able to bring several decades' experience to the
+   table.  Yes, we know the difference between a robust, fast application
+   and a web prototype.  Yes, we know the cost of a poor database design
+   compared to the power and flexibility of a good database design.  By an
+   amazing coincidence, we happen to be experts in SSL security.  Oh yes,
+   we can generate large parts of the code, especially those parts no-one
+   wants to touch.  Yes, we suggest using XML for everything.  Take a look
+   at our little GSLgen code generator.  And so on...
+
+   It took just half a day to convince the IT people that we knew what we
+   were taking about, and half a day more to agree to do the project.  We
+   then spent the next few days creating the basic framework for the
+   application, agreeing on a project plan and who would do what. This is
+   stunningly quick.
+
+   Now of course, us iMatix guys are good at presenting our technology and
+   capabilities (modesty aside).  But I think the real reason why this
+   project got off the ground so fast, and so well, is that we have entered
+   that cycle of web development where the meat has hit the wall, so to
+   speak.
+
+   A year ago, a competent web page designer could throw together a 'web
+   application' using some VB scripting and a database designed on the
+   fly.  So long as the graphics looked good, no-one would complain about
+   the speed.  When things got too slow, just upgrade the mother(board).
+
+   Today, Internet applications are creating a new model for business data
+   processing.  We've moved from the centralized mainframe world, through
+   a PC client-server age to a web-based world where the mainframe once
+   again rules supreme, except that it's now handling several thousand
+   concurrent users, and is built from bunches of cheap PC boxes.  It's a
+   rare software developer who can map the new web applications onto the
+   rules we learnt in the mainframe days.
+
+   Pieter Hintjens
+   15th February
+
+
+== NEWS .-...----.-.----....-.--...----.-.---...-.---...-.--.-...---.--..-..
+
+   Incident Report...
+       Yesterday our primary DNS (Don't Know server) failed due to excessive
+       RDNS (Really Dont Know server) queries from the internet.  Following
+       this failure, our HTTP (Highly Technical Thingy Protocol) and FTP
+       (Fairly Technical Protocol) servers crashed. Our Linux (Linux is not
+       Unix, xetera) systems held-up, but our Windows NT (Non-Technical)
+       servers reported VxD (very excessive damage) errors using the
+       traditional blue background (red for danger, yellow for warning,
+       blue for you're really up the boondeeks).  After several hours, our
+       tactical response team (they do not swear at the customers) managed
+       to reboot the IP VNAT router (I Presume: Very Nasty and Problematic),
+       to the delight of all.  All that are left are some bad sectors
+       (especially the area next to the coffee machine) and a fragmented
+       hard disk (it fell onto the floor when we were degaussing the
+       portable).
+       Signed, Ignus O'Ramus.
+
+   Samsung announces net-aware kitchen appliances
+       No joking.  The next fridge you buy might be wired to the net.  The
+       3rd-millennium microwave could ask www.cookme.com for hints on how to
+       cook that bag of popcorn you just threw-in.  "Please wait, connecting
+       to www.cookme.com... Dialing... Line busy.  Redialing...  Have
+       connection.  Sending password.  Logging-in to remote server.  Looking
+       up www.cookme.com...  Error: host unknown."  Hmmm.  Anything this bad
+       is bound to be a success.
+
+   SCO will start selling Linux products, takes stake in Caldera
+       With SCO, the owner of the UNIX name and heritage, buying into
+       Caldera, one of the most respected Linux distributors, this marks
+       the end of Unix as a separate entity.  Linux did what UNIX never
+       could - it established a standard and created a viable competitor
+       to Windows.  This reinforces my opinion that Linux is on the way to
+       becoming the Operating System, much like TCP/IP became The Network.
+       It's no longer a matter of if, but when, Microsoft will start
+       giving Windows away for free in order to stem the growth of Linux
+       in the home and workplace.
+
+   Is this really funny?
+       Two guys went to college together in the early 90's, and met many
+       years later. One worked for AOL, and the other worked for Microsoft.
+       The Microsoft guy visited the AOLer's house and was impressed by his
+       swimming pool, large house, and Mercedes. "How did you do it?" he
+       asked. His friend showed him a computer screen running Netscape
+       Navigator, and said "See that software - 10%".  Later, the Microsoft
+       guy invited the AOLer to his place, and the AOLer was stunned to see
+       a gigantic mansion, with swimming pools, tennis courts, and ten
+       Mercedes parked outside.  The AOLer said "Wow! You've done really
+       well.  How did you do it?"  The Microsofter showed him an shelf of
+       empty software boxes from dozens of now-defunct software vendors, 
+       and said: "see all that software - 100%".
+
+   And the lucky winners are...
+       T-shirts are on their way to: Emanuel Levy, Glenn Williams, Bernard
+       de Rubinat, Art Pollard, Kovacs Istvan, Bill Powell, John Klassa,
+       Steve Freeman, Ron Crain, Terry Stebbens and Veronica Parsons.
+       Thanks for your e-mails!!
+
+
+== MAIL .-.-.--.-.-.--.-.----...-.-..--.-.-.--.-.-.--.-.----....-.--....---.
+
+   From:           	Justin Gamble <justin@cs.ualberta.ca>
+   Subject:        	Libero -- GUI tool? 
+   -----------------------------------------------------------------------
+   Hi,
+   I have downloaded Libero, and tried to execute it.  After reading through
+   most of the available documentation, and even playing with some of the
+   examples, I still am perplexed.
+   I was under the impression that Libero was a GUI tool.  By this I mean
+   that we run Libero, and up pops a GUI which we then manipulate until we
+   have a diagram that we like, and then we (somehow) generate the code.
+   But, I don't see any Libero screenshots in the documentation, and further
+   I cannot seem to get any GUI to pop up during execution.  My platform is
+   Linux.
+   It appears that Libero is a textual tool only.  By this I mean that I
+   program a Libero script (in plain text), and then use Libero to convert
+   it to other languages.  Is this the case, or is there an associated GUI?
+   Am I missing something?
+   Thank you,
+   Justin
+
+
+   Libero is a mind-tool.  The concepts it uses are not complex, but they
+   are subtle and widely applicable.  Deep rather than wide.  This makes a
+   GUI irrelevant, because it's easier to fire-up a text editor than a
+   GUI, and a Libero GUI really does not add very much.  That said, we did
+   once write a Windows GUI for Libero, mainly to market the idea to a
+   largely skeptical world.  Since those days, Libero has proven itself in
+   a host of places.  The best thing about the Windows GUI is that it cuts
+   the 'Aha, I got it!' period from three days to two.  The worst thing is
+   that it's written in Visual Basic, a language that was never intended
+   for serious programs.
+
+
+   From:           	Terry Stebbens <terry.stebbens@vocalis.com>
+   Subject:        	RE: Liberetto V/1 - Happy Third Millennium
+   -----------------------------------------------------------------------
+   Hi.
+   Thanks for an amusing newsletter. I was very disappointed that the world
+   didn't end at midnight at the beginning of this year because now I have
+   a large credit card bill to pay for all the partying I did... The worst
+   thing that happened here in Mexico (my new place of work) was that all
+   the Cablevision T.V.'s apparently cut out for five seconds exactly on the
+   count of zero! I was under the table at this point and missed it. I think
+   that some of the "hastily trained COBOL programmers" are also being sent
+   back to jobs as real-estate agents too, by the way.
+   Anyway, I was wondering why you chose to have your FSMs in the form:
+
+   State-Name
+       (--) Event-Name1 -> Next-State1
+            + Actions
+       (--) Event-Name2 -> Next-State2
+            + Actions
+
+   and not the more popular:
+
+   State-Name
+        + Actions
+           (--) Event-Name1 -> Next-State1
+           (--) Event-Name2 -> Next-State2
+
+   Everyone I know was taught the second way (including myself) and I find
+   this easier to draw in a diagram than your way. Is this iMatix just
+   trying to be different or was there a reason?
+   Cheers,
+   Terry Stebbens
+   Sales Consultant, Vocalis Latin America
+   http://www.vocalis.com/
+
+
+   Well, we were happy to see the world continue as before.  It really
+   makes things much easier this way.  For one thing, Monday mornings are
+   tough enough without having to cope with global anarchy.  You should
+   try driving from Antwerp to Brussels on a Monday morning.  Actually,
+   after enough Belgian drivers, global destruction does not seem such a
+   bad alternative.  Where was I...?  Oh yes, states and events...
+   I'm sure there is some good reason for the form of FSM that you were
+   taught.  Perhaps it was Monday morning.  That'd be a good reason.  As
+   far as I can see, both forms are equivalent.  It's like saying:
+
+       (--) When-Hungry
+            + Eat-Some-Food
+            + Drink-Some-Beer
+            + Check-If-Still-Hungry
+       (--) When-Tired
+            + Go-To-Bed
+
+    Rather than:
+
+       + Eat-Some-Food
+       + Drink-Some-Beer
+       + Check-If-Still-Hungry
+          (--) When-Hungry
+       + Go-To-Bed
+          (--) When-Tired
+
+   The first way just seems much clearer.
+
+
+   From:           	Shivakumar Gopalakrishnan <kumar@sat-i.com>
+   Subject:        	Re: Can you send me more info on iMatix Studio?
+   -----------------------------------------------------------------------
+   Hi 
+   Go open source!!! It is great that you releasing your "components" as
+   opensource.
+   I just have two questions:
+   1. Do you plan to convert gslgen to work as an XSLT? That would be
+   great!!
+   2. It is more of a request actually, I am totally new to multi-threading
+   concepts and it would help me greatly if you could have 1-3 samples
+   using SMT (kind of "Hello world" programs) instead of the current Xitami
+   example, which is better understood after going through simple samples.
+   Thanks
+   Shivakumar Gopalakrishnan
+   Structural Analysis Technologies, Inc.
+   http://www.sat-i.com
+   kumar@sat-i.com
+
+
+   "XSLT" means "Extra-Super-Large T-shirt", for those who are unsure.
+   I'm sorry to report that the iMatix T-shirts are all just plain large,
+   (JPLT).  However, our JPLT's are superior to the W3C's XSLT's due to
+   their logo, "It's Linger Fickin Good!".  For more comparisons between
+   GSLgen and XSLT, see our technical white paper on Code Generation at
+   www.imatix.com.
+   "SMT" stands for 'simple multithreading', which means it's supposed to
+   be easy.  We use a metric called the 'Monday morning effect' (MME) to
+   determine whether something really is simple or not.  To measure the
+   MME rating for a product design, you need a uncaffeinated user at 8am
+   on Monday morning.  Present user with product, note user's reactions.
+   On a standardized MME rating, SMT scored 70%.  High values are good.
+   For comparison, a standard bistro espresso machine scored 98%, while
+   networking a Windows 98 and Windows NT system scored 32%.
+
+
+   From:           	"Hustead, Robert" <Robert.Hustead@AIG.com>
+   Subject:        	Using PCDATA and CDATA from GSL.
+   -----------------------------------------------------------------------
+   I recently downloaded GSL and it looks almost exactly what I need.  
+   What I want to do is to create something like the Libero package that
+   actually holds fragments of Java code that implement the "actions".  I
+   want to do this because I don't like the idea of reworking code that
+   was merged with generated code when some required modifications force a
+   2nd generation.  I'd rather keep the code fragments with the "action"
+   definitions. I was getting ready to try to write a custom generator
+   from an XML format.
+   With my custom solution, the problem that I faced and solved was the
+   presense of embedded <, > and & characters. < and > are used in Java.
+   If you embed Java code in an XML document containing these chars, the
+   XML parser will choke.  The answer is to embed the Java fragments in a
+   CDATA block.  CDATA blocks are designed be pass illegal XML text through
+   the XML parser.
+   The following is valid XML:
+
+   <fragment>
+   <![CDATA[
+   if( speed < limit ) proceed();
+   xml_out.println("<embedded_tag>Look Ma</embedded_tag>");
+   ]]>
+   </fragment>
+
+   In exploring gslgen I began playing with "hello world"  I could not get
+   at the text between mark up tags in the schema.  I found an example on
+   the /gslgen/doc/tour/index9.htm file that used the ".insert" command.  I
+   tried this and it did not work.
+   So, I have two questions:
+   1.  Is there a ".insert" command or equivalent?
+   2.  Does the ".insert" command support CDATA sections?
+   Thanks,
+   Bob Hustead
+   Robert.Hustead@aig.com
+
+
+   Good questions.  GSL/2.000 lets you access an entity value using the
+   syntax 'name.'.  But it does not (yet) support CDATA blocks.  We'll
+   look at adding this to the XML parser (in sflxmll).  In the meantime
+   you can use &lt; and &gt;, which are understood by the parser.  So,
+   your code would become:
+
+   <fragment>
+   if( speed &lt; limit ) proceed();
+   xml_out.println("&lt;embedded_tag&gt;Look Ma&lt;/embedded_tag&gt;");
+   </fragment>
+
+   Your idea of using GSLgen to generate Java from XML plus code fragments
+   is cool.  Definitely MME 90%.  This is what GSLgen was designed for.
+
+
+   From:           	Jon Saxton <triton@attglobal.net>
+   Subject:        	Re: Liberetto V/1 - Happy Third Millennium
+   -----------------------------------------------------------------------
+So, I wish you a very happy third millennium ...
+   Pieter, I am disappointed.  Of all people, I thought you would be immune
+   to the false prophets from the electronic media.
+   --
+   Jon Saxton <triton@attglobal.net> OS/2 software developer
+   U.S. agent for Triton Technologies International Ltd
+   http://www.triton.vg/
+
+
+   This is one of those 'damned if you do, damned if you don't' situations.
+   We all agree that this is not *really* the third millennium yet.  There
+   was no year zero.  Yet, language is a matter of common accord, so if
+   the majority of people decide that this is now the Third Millennium, so
+   be it.  I'm certainly not going to spend the next year telling people
+   "Hey, it's still the twentieth century!"  Party on!
+
+
+== REPORT -..----...---.-.----...---..----..-.-.-...-.-.-.---....---.-.-.---
+
+   GSLGEN - an unauthorized biography
+   By Darius Blasband <darius@phidani.be>
+
+   I currently work as a consultant for IBM in Belgium, on a project for
+   financial markets. Among other mundane issues, I am responsible for the
+   architecture and setup of the entire communication infrastructure, as
+   the system is built of several smaller sub-systems which must communicate
+   with each other.
+
+   The project started with several imposed decisions, namely, using
+   MQSeries for the communicating among sub-systems, and XML for the message
+   format - while plain object serialization would have been a natural
+   choice since the entire project is Java-based.
+
+   I don't really mind: these choices are reasonable. The objections I have
+   about such early technical decisions are of two kind:
+
+   - How sure are we that these choices won't change in the future? For
+     instance, sending and receiving messages using XML might prove far
+     too inefficient to meet the performance requirements of the application.
+   - I sure don't want application programmers to start fooling around with
+     XML management code nor the (intricate) MQSeries API. Such technical
+     issues should be totally hidden.
+
+   In order to cope with these issues, and abstract the complexity of the
+   communication layer entirely, I used GSLGEN. Based on a central and very
+   high-level description of the messages to send, a schema produces Java
+   classes to represent messages, as well as the streaming (to XML) and
+   parsing (from XML) code automatically. The application programmer does
+   not see XML nor MQSeries: he (or she) just sends and receives messages
+   in the form of Java objects.
+
+   This was the starting point, we soon extended this and GSLGEN delivered
+   more and more:
+
+   - Since we induce an XML representation for our messages based on our
+     central high-level dictionary, we also produce the corresponding XML
+     DTD for documentation purposes, for the various third parties who
+     might communicate with our system.
+   - We produce an extensive HTML-based documentation which describes all
+     messages, their interactions, etc...
+   - The Java messages are generated with a random data facility, which 
+     basically fills the object's attributes with random data for volume
+     test purposes.
+   - Various tracing and debugging facilities
+   - We even produce the MQSeries setup file!
+
+   Things went even further: the application at hand is based on IBM's San
+   Francisco framework. A San Francisco class can barely be written by hand:
+   the only reasonable way of creating a class in the framework is to use
+   one of the supported CASE tools, and have San Francisco-specific code
+   generators produce the wealth of ancillary code required to interact
+   properly with the San Francisco environment. 
+
+   At some stage, we needed to integrate our messages in San Francisco, and
+   after twiddling here and there, we found a strange way to solve our
+   problem: since we needed classes to be created from within the CASE tool,
+   we used GSLGEN to produce a script in the CASE tool's scripting language,
+   which created the classes and attributes we needed! As amazing as it may
+   sound, we used the CASE tool as intermediate compilation stage!
+
+   In the beginning, I was using GSLGEN as a kind of black magic: no one
+   understood what I was up to. It was a guru-kind of tool. After a while, 
+   a few other members of the team started using it, and enjoyed generating 
+   code rather than manually coding repetitive operations. 
+
+   There are a few minor things one can complain about: the GSLGEN
+   documentation is so sparse and sometimes, so cryptic, that I read 
+   some parts hundreds of times, up to a point where I think I can sing 
+   large pieces by heart (perhaps even tapdance. I'll try soon...). 
+   We also experienced some bizarre behavior here and there, but we 
+   always found ways of overcoming the limitations we found. 
+
+   Sometimes, we also felt the need for additional expressive power, in
+   expressions as well as in control statements, but we've heard this
+   was something IMATIX Corp. was working on actively. We can hardly wait...
+
+   All in all, the gain in productivity when compared to a manual brute force
+   approach has been huge, the level of quality is excellent since there are
+   far fewer places where a coder can introduce an error. Even more than code
+   only, producing the collaterals, such as the automatically generated 
+   documentation, increases the overall value of the project significantly.
+   I had a hard time introducing GSLGEN in the project in the beginning. Now,
+   the entire team is enthusiastic for it.
+
+   P.S.: Of course, this does not imply
+   that IBM endorses the opinions described
+   above. Unless, of course, IBM stands for
+   International Blasband Machines.
+
+
+== TERMINATE THE PROGRAM -...---...-..----....-.---..---...-...---.-...---.-
+
+   DISCLAIMER: while we have made every effort to keep this journal totally
+   free of anything that might resemble intelligence, humor, or even low
+   wit, we cannot guarantee that an accidental coincidence of words may be
+   interpreted as such.  Under no circumstances will iMatix Corporation,
+   its affiliates, employees, guard dogs, or coffee machine operators be
+   held responsible for the consequences of anything which might happen.
+
+   To unsubscribe, just send us an e-mail.

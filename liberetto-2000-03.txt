@@ -1,0 +1,169 @@
+From: "Pieter Hintjens" <ph@imatix.com>
+Subject: Liberetto V/3
+Date: 25 March 2000 23:44:20 NZST
+To: "Liberetto" <editors@imatix.com>
+Reply-To: editors@imatix.com
+
+    =
+--- === ---------------------------------------------------------------------
+ =======    -L- -I- -B- -E- -R- -E- -T- -T- -O-                   March 2000
+=========
+ =======    The iMatix Newsletter                           Volume V Issue 3
+--- === ---------------------------------------------------------------------
+    =              Copyright (c) 2000 iMatix Corporation - distribute freely
+                                        Back issues at http://www.imatix.com
+                                             Comments to: editors@imatix.com
+
+   - Programming -- Technology -- Code Generation -- Finite State Machines -
+
+
+== COMMENT ---...-.-...-.--...-.--...-.-...-.....---..-....--.--..-.-.---.--
+
+   This month we moved offices from Antwerp to Brussels, a small step on
+   the map, but a big step for iMatix.  First rule of moving: anything you
+   did not unpack since the last removal you can now throw out.  Second
+   rule of moving: that truck is still *too small*.  Third rule of moving:
+   when you stack more than nine banana crates, they fall over.
+
+   For those of you who send us real-Mail, our new address is: 13/15 rue
+   des Ateliers, 1080 Brussels, Belgium.  Phone: 02.414.8404.
+
+   This month saw the start of the end of Iridium, the cellphone brick from
+   outer space.  I predicted this last year in an (unpublished) Segfault
+   article, but then the title of the article was "Microsoft buys Iridium,
+   launches MS-SatTV".  Maybe not.
+
+   Iridium was killed by the success of cheap land networks that are slowly
+   covering the globe.  These cheap land networks are fuelled by the opening
+   of the telecoms market, competition, and technology.  This in turn is
+   being given a big push by the Ultimate Killer Application, the Internet.
+
+   Maybe this 'Internet' thing is going to work, after all.  It certainly
+   looks like we're heading rapidly towards a future where fast, cheap
+   networking is all around us, embedded in our telephones and gadgets,
+   changing the way we work, play, and consume.  My friend Jonathan, who
+   is our company's social consciousness, might remind me that for the
+   majority of people on Earth, the first priority is clean water and
+   food, not a mobile phone.  Indeed.  But mobile phones come a close
+   third.
+
+   The failure of Iridium marks, for me, the failure of the global
+   approach.  No single company can create a global network that can
+   compete with a hundred co-operating local networks.  I like this.
+
+   Pieter Hintjens
+   Brussels
+   20-something March 2000
+
+
+== HUMOUR -..-..---...-..-.---...-.---...-..-..---...-.-.-.---...---...-.--
+
+   Sorry, we seem to have turned Liberetto into a serious journal.  This
+   is the twenty-somethingth century!  Besides, the next issue of
+   Liberetto is due out in a week or so, which makes the editor-in-chief
+   really grumpy, so the entire 'jokes' section of Liberetto which
+   was originally several pages long has been edited to the following
+   phrase:
+
+       "...which might hurt, but not as much as a falling stack of
+       banana crates".
+
+
+== MAIL .-.-.--.-.-.--.-.----...-.-..--.-.-.--.-.-.--.-.----....-.--....---.
+
+   From:           	leif@attglobal.net
+   Subject:        	GSL et al
+   -----------------------------------------------------------------------
+   Hi Pieter,
+   I had occasion to revisit the iMatix site today and went to your
+   'white papers' section.
+   I want to congratulate you (and your team) with the outstanding job you
+   have done with GSL (and related stuff).
+   Truly impressive. Code generation lives!
+   Leif Svalgaard
+
+
+   Thanks!  (Small historical note: Leif Svalgaard invented modern code
+   generation, sometime in 1985.)  We're very happy with GSLgen.  It's a
+   wonderful tool in the hands of a skilled programmer.  Our iAF (iMatix
+   Application Framework), which the white papers describe, is a GSL
+   toolkit that produces entire web applications.  It's a work in
+   progress, but already doing wonders.  One example project consists of
+   4,500 lines of original code (in the form of XML definition files).
+   Using this, iAF produces about 91,000 lines of working source code.
+   iAF itself consists of about 14,000 lines of GSL code.  A 20-to-1
+   factor is exceptional, and is possible only because GSLgen lets us
+   manipulate metadata on an industrial scale.
+
+   If this all sounds like voodoo, that's because it probably is.
+
+
+   From:           	Mark Delaney <markd@microen.com>
+   Subject:        	GSLgen and XML standards
+   -----------------------------------------------------------------------
+   Do you have any thoughts about the future of GSLgen's schema now that
+   the various XML-Schema proposals are nearer to becoming international
+   standards? It seems like the basic approach of your tool could be done
+   using XML and whatever XSL schema wins. And it looks to me like there
+   will be a lot of effort (industry and open source) expended creating
+   tools to these standards. 
+   Should I worry that GSL will wither on the vine? Do you have any plans
+   to move towards standards-conforming schemas? How is GSL superior to the
+   proposed standards? Is this issue on your radar?  
+   Any feedback is welcome. I like the approach you are using very much.
+   Thanks!
+   Mark Delaney
+
+
+   How is GSL superior to XSL?  XSL (XML stylesheets), and XSLT (the XSL
+   transform language) offer some of the same basic techniques as GSL.
+   But the comparison quickly fades.  As far as I can see, XSL is designed
+   to let companies like Microsoft build totally non-standard browsers
+   while 'sticking to industry standards'.  XSL schemas define rules for
+   showing XML data to the user.
+
+   GSL on the other hand, is a brute-force XML manipulation language,
+   designed to churn through masses of XML, extract and calculate, and
+   then produce source code, reports, HTML, whatever.  It's a server-side
+   approach: for instance, by embedding GSLgen in Xitami, we give
+   stylesheet-like capabilities to a web site, irrespective of the browser
+   people use.
+
+   GSL diverges from the industry-standard approach in two big ways:
+   firstly, it's not itself an XML language.  This is actually a big
+   advantage: GSL scripts are easier to read, easier to write, and look
+   like normal programs.  Secondly, we do not use DTDs.  We were just
+   being lazy, but it turned-out to be well worthwhile.  Since we don't
+   use DTDs, you can churn-out GSL scripts quickly and easily.
+
+   GSLgen is also portable, free, fast, etc. etc.  In our experience, the
+   more people have gotten into using XSL to do real work, the more they
+   start smiling when we explain what GSL is and how it works.
+
+   Look at a reasonably complex GSL application like our iAF 
+framework (see
+   the white papers section on imatix.com), and it's hard to see how 
+this
+   could work using any of the existing or proposed XSL tools.
+
+   It's my conviction that the industry standard approaches embodied 
+in
+   XSL are overweight and corrupted by partisan influence, 
+especially that
+   of Microsoft.  This is a shame, because XML brings real and 
+tangible
+   benefits, and yet the bulk of industry efforts to exploit it 
+appear to
+   be inefficient, if not misdirected.
+
+   My guess is that we'll start to see hybrid approaches that use 
+some XSL
+   techniques mixed with scripting languages (maybe JavaScript or 
+Perl),
+   at which stage we start to see something like GSLgen emerge.
+
+
+== TERMINATE THE PROGRAM -...---...-..----....-.---..---...-...---.-
+...---.-
+
+   To unsubscribe, just send us an e-mail.

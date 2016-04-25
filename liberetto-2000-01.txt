@@ -1,0 +1,372 @@
+From: "Pieter Hintjens" <ph@imatix.com>
+Subject: Liberetto V/1 - Happy Third Millennium
+Date: 16 January 2000 6:21:15 NZDT
+To: "Liberetto" <editors@imatix.com>
+Reply-To: editors@imatix.com
+
+    =
+--- === ---------------------------------------------------------------------
+ =======    -L- -I- -B- -E- -R- -E- -T- -T- -O-                 January 2000
+=========
+ =======    The iMatix Newsletter                           Volume V Issue 1
+--- === ---------------------------------------------------------------------
+    =              Copyright (c) 2000 iMatix Corporation - distribute freely
+                                        Back issues at http://www.imatix.com
+                                             Comments to: editors@imatix.com
+
+   Programming -- Technology -- Finite State Machines -- News -- Other Stuff
+
+
+== COMMENT ---...-.-...-.--...-.--...-.-...-.....---..-....--.--..-.-.---.--
+
+   Near the end of the last Millennium...
+
+   The world rolled through midnight like a drunk rolling in the gutter...
+   As the scythe of midnight cut across the globe, millions of voices
+   uttered the same prayer: "My god, I hope it works!"
+
+   As we now know, most firework displays worked faultlessly, with none of
+   the major incidents expected.
+
+   Likewise the computers - Y2k now appearing to have been a hoax put up
+   by the food industry in order to shift warehouses full of frozen
+   chicken, pasta, and sardines.  The big question now is not 'will it
+   work?', but 'how come it worked?'  Countries like Bakustan, which spent
+   exactly three dollars to check-out their nuclear power plants had no
+   more Y2K trouble than the US, which spent over US$ thirteen trillion,
+   severely curtailing other critical spending such as nice wooden toilet
+   seats for the Space Shuttle program.
+
+   Pre-Y2K visions of apocalypse had programmers being chased by wild mobs
+   demanding to know why their video recorders and dishwashers no longer
+   worked.  Now the mobs are of financial officers demanding to know why
+   the bill includes items like 'Replaced Y2K-incompatible swimming pool'
+   and 'Travel expenses for Y2K early warning system in Kiribati'.  It
+   will be years before all those hastily-trained Cobol programmers can be
+   returned to productive jobs at supermarket check-outs and advertising
+   agencies.
+
+   At least we all had great fun clearing out the attics, junking all
+   those undocumented programs, and incompatible PCs. The tax advantages
+   of Y2K alone made it all worthwhile.
+
+   So, I wish you a very happy third millennium, and if you need some
+   recipes for chicken and pasta, see http://post-y2k-cuisine.com/.
+
+   Pieter Hintjens
+   Antwerpen
+   Somewhere in January 2000
+
+
+== REPORT -..----...---.-.----...---..----..-.-.-...-.-.-.---....---.-.-.---
+
+   iMatix.com@Bazaar.Org
+
+   The northern European city of Edinburgh organizes a yearly festival of
+   arts, music, and theater.  The Festival is a staid, boring affair, but
+   attracts hundreds of artists who organize the 'Fringe festival', held
+   in small back rooms and on the streets.  The Fringe is where the action
+   is.
+
+   Likewise for the e-Business Expo in New York City in December, at the
+   Jacob Javits center.  The real action was upstairs in a back room,
+   hosting 'The Bazaar', a conference and expo for the Open Source
+   community.
+
+   The Bazaar was a mix of the raw materials of the Internet.  At the one
+   end was the Free Software Foundation, selling T-shirts (I bought two)
+   and starring Richard Stallman - aka RMS, the Guru of free software.
+   RMS likes people to refer to 'Linux/GNU' and will not wear T-shirts
+   with writing on them.  (Not even the iMatix "It's linger fickin' good!"
+   ones, I'm sorry to report.)  RMS and his followers wear long hair and
+   beards, except the women, looking every bit like a sect from California.
+   Which they are, pretty much, except that this sect produced the heart
+   and soul of the Internet (the brains, legs, and other body being parts
+   collected over the years from university hospitals and army med tents)
+   (and various parts of the lower digestive tract coming from Redmond).
+   Ironically, RMS does not use the Internet on his own PC.  He says it's
+   a long and complex story.
+
+   At the other end of this ad-hoc village was the capitalist Andover.Net
+   pavilion, hosting a number of projects, from Slashdot.org to FreeBSD.
+   I spoke to the gentleman behind FreeBSD, whose name I forget.  He was
+   getting his mind around an electronic commerce system to sell FreeBSD
+   on line.  Ironic, given the big e-Business bash downstairs.
+
+   I also met John 'Maddog' Hall, who is famous for something, and Eric
+   Raymond, who is also famous for something.  Meeting Eric was a real
+   pleasure.  He reads Liberetto.  He has a paragraph from Liberetto in
+   his sig file (something to do with Windows and pain).  I presented him
+   with the Millennium Edition of Liberetto, all 4 volumes bound in a neat
+   3.5" gold-plated plastic binder.  :-)
+
+   As commercial opportunities go, the Bazaar was not striking.  A total
+   of 3.000 people paid to see Homo Hackerus in a mockup of his native
+   ecosystem (there was no pizza).  Even that figure seems suspiciously
+   high.  There were so few visitors that by the second day the organizers
+   began shipping-in groups of students and busloads of retirees looking
+   like they'd been snatched from caravan parks in Florida.  The students
+   were interested in knowing what Linux was, and the free software.  The
+   retirees were much more efficient.  Bypassing all 'What do you do' and
+   'How does it work', they just went for the T-shirts and anything shiny.
+   Carpe Scryptum.
+
+   Andover.Net gave a party, and the beer was free, to the delight of most
+   except RMS, who designed Free Software to be almost exactly unlike free
+   beer.  Years of 'free as in free speech, not free beer' down the drain
+   in one evening.  There is now a name for the motion your hand makes when
+   opening a beer bottle - it's the 'Open Beer Movement'.
+
+   The iMatix crew did a great job, and accounted for about half of the
+   sushi consumed in Manhattan that weekend.  Our stand was colorful and
+   piled to the top with T-shirts, CDs, gold-plated diskettes, and pens.
+
+   We still have some T-shirts left: if you want one, drop us line.  There
+   are two models: "iMatix@Bazaar '99", and "it's linger' fickin good",
+   which made it past the censor after much discussion and a small white
+   envelope under the table.
+
+   First ten people to ask get a t-shirt sent to them...  :-)
+
+
+== NEWS .-...----.-.----....-.--...----.-.---...-.---...-.--.-...---.--..-..
+
+   Y2K Conversions Completed, Finallk!!
+       We have this report from one of our correspondents: "after mank
+       months of drudgerk, and some delak, we finished the conversion
+       successfullk on Thursdak Januark 6th."
+
+   GSL is dead - Long Live GSL!
+       The iMatix language formerly known as the 'Generic Schema Language'
+       is undergoing a serious metamorphose.  Up to now, GSL was mainly
+       aimed at code generation.  The all-new GSL/2.000 is extensible,
+       faster, and has many more functions.  It's the ideal tool for XML
+       transformation, web development, reporting, scripting, and - still -
+       code generation.  We'll be bringing a full report in Liberetto V/3.
+       GSL/2.000 is an Open Source product, slated for release in February
+       2000.
+
+   iMatix Linguist
+       iMatix announces the development of "iMatix Linguist", a new product
+       to develop multi-language applications.  iMatix Linguist provides
+       fast, dictionary-based translation of HTML pages, ASP applications,
+       C, Visual Basic, Java,...  Due for beta release in 2nd quarter 2000.
+       iMatix Linguist will be available in a free personal edition and a
+       retail edition.  Prices are still to be announced.
+
+   Xitami 2.5 Nears Production Status
+       Our Xitami web server has been in beta release for some time and
+       will be release for production use soon.  Version 2.5 adds many new
+       features, including server-side XML processing, GSL scripting, ISAPI
+       support, built-in SSI support, transfer throttling, a dynamic DNS
+       client, and direct support for PHP/4 and Java Servlets.
+
+
+== MAIL .-.-.--.-.-.--.-.----...-.-..--.-.-.--.-.-.--.-.----....-.--....---.
+
+
+   Subject:   	Re: Liberetto IV/12 - retry
+   From:      	"John Levy" <johnlevy@svn.net>
+   To:        	editors@imatix.com
+   -----------------------------------------------------------------------
+   We moved to this quiet & rural area (Pt. Reyes, Calif.) -- mostly dairy
+   farms -- last summer.  The chief entertainment here seems to be waiting
+   for the Thursday issue of the local newspaper, and then reading (aloud)
+   the Sheriff's Calls column.  The only folks with more than a 56K modem
+   access to the Internet are the guys up in the former Livery Stable (now
+   converted to offices) who do their translations of the For Dummies
+   books, accessing the world with a T1 line -- the only one for 25 miles
+   in any direction.
+   As for myself (no, you didn't ask, but aren't you interested in your
+   readership?), I'm a refugee from Silicon Valley (hardware, buses,
+   engineering management) currently consulting to mom-and-pop startups
+   in jewelry manufacturing and (building) architecture....
+   Thanks to YOU for a lively and entertaining millennium of news and
+   commentary on the world.  Our best for '00 -- oops, I mean 2000.
+   --John
+
+
+   Ah, it's always a pleasure to hear from our readers.  Welcome to the
+   Noughties, John.
+
+
+   From:          	"Kovacs Istvan" <kofa@alarmix.net>
+   Date sent:     	Thu, 02 Dec 1999 22:28:30 +0100 (CET)
+   Subject:       	Re: Liberetto IV/12 - retry
+   -----------------------------------------------------------------------
+   Hi!
+   What's up? Are you drunk, after some awesome party or what?  Three
+   tries, and only a small, short Liberetto as a result... and even that
+   is an attachment. You just can't do this to us Liberetto addicts!
+   Kofa
+
+
+   Once, a disciple asked his master: "Master, how does one create a
+   Liberetto?"  The master replied: "One takes a random bit-string, and one
+   removes those bits that do not form part of the Liberetto".  The disciple
+   reflected for a while, then he replied: "Master, how does one recognize
+   those bits that form part of the Liberetto?".  The master instructed the
+   disciple to kneel on the ground, and then hit the disciple on the head
+   with a copy of the "Office 2000 Developer's Guide".  The disciple was
+   thus enlightened.
+   Or, as a friend once said: "what's the difference between a Liberetto
+   and a bottle of wine?"  Answer: "They are both identical, except that
+   the wine is free."
+   I hope this explains everything.
+
+
+   Date sent:     	Thu, 2 Dec 1999 11:04:57 -0600 (CST)
+   From:          	Brooks David Smith <brooks@uwm.edu>
+   To:            	Liberetto <editors@imatix.com>
+   Subject:       	Re: Liberetto IV/12
+   -----------------------------------------------------------------------
+   That was a *very* short 'Liberetto' this month. :-) ?
+   David
+
+
+   Yes, wasn't it!
+
+
+   Date sent:     	2 Dec 99 22:38:26 GMT
+   From:        	Glenn Williams <gloonie@netscape.net>
+   To:            	editors@imatix.com
+   Subject:       	Millennium Wishes
+   -----------------------------------------------------------------------
+   Dear Liberetto,
+   I just wanted to congratulate everyone at iMatix and to wish you all
+   happiness and peace for the new Millennium! I have read every issue of
+   Liberetto from the first issue, and sit nervously biting my nails
+   every month until it arrives!
+   Aside from the occasional masterpieces of literary genius exhibited in
+   the newsletter, every one of your products is an excellent piece of work.
+   Not only have I found Xitami, Libero, the SFL, SMT and GSL among the most
+   useful products I have used, but must also congratulate you on your
+   incredible commitment to Open Source and real, solid support.  (The
+   latter which you give out with such utter abandon that I often fear for
+   your health!)
+   Enjoy New York, and save some of those T-shirts for those of us who can't
+   make it!
+   Regards,
+   Glenn    
+
+
+   I think this constitutes the first request for an iMatix conference
+   T-shirt.  Send us your mailing address, Glenn.  One down, nine to go.
+   Ps. we like the "you guys are fantastic" stuff.  Keep it coming!!
+
+
+   Date sent:      	Thu, 16 Dec 1999 16:55:54 +0100
+   From:           	Vlad Dumitrescu <qhsvlad@ehpt.com>
+   Organization:   	HiQ Väst AB
+   To:             	info@imatix.com
+   Subject:        	Libero rulez! ;)
+   -----------------------------------------------------------------------
+   Hi!
+   I enjoyed this afternoon going through your site, reading documentation
+   and the other stuff... the software I will try at home.
+   Is it possible to write a schema that will generate no tables? (the
+   transitions are to be handle by direct function calls, and there will
+   be those really pretty deep nested if-else and case statements....
+   mmmm!)  It should be possible from what I gather, but it's better to
+   double check first! :)
+   Well, there's another question... Somewhere I read that GSLgen is the
+   future of Libero - and in some future they will go together. Is there
+   any new development in the area?
+   best regards,
+   Vlad Dumitrescu
+
+
+   Curiously, the answer to your first question is contained somewhere in
+   the second.  Libero generates a compact table-driven state machine.
+   This is excellent for large state machines because it is compact even
+   when you have dozens or hundreds of states and events.
+   A nice alternative is to use GSLgen and an XML state machine format.
+   It is really easy to produce nested case statements to make the state
+   machine work.  Let's look at a small example of an XML state machine:
+
+       <fsm name = "todo">
+       <state name = "initial" >
+           <event name = "ok"     nextstate = "pending" />
+           <event name = "cancel" action = "terminate" />
+       </state>
+       <state name = "pending" >
+           <event name = "close"  nextstate = "closed" />
+           <event name = "change" action = "edit" nextstate = "editing"/>
+           <event name = "delete" action = "terminate" />
+       </state>
+       <state name = "closed" >
+           <event name = "purge" action = "terminate" />
+           <event name = "renew" action = "edit" nextstate = "editing" />
+       </state>        
+       <state name = "editing" >
+           <event name = "ok"    action = "save" nextstate = "pending" />
+           <event name = "cancel" action = "cancel" nextstate = "pending" />
+           <event name = "delete" action = "terminate" />
+       </state>
+       </fsm>
+
+   This shows a simple FSM that describes how we work with an item in a
+   To-Do list.  It's not as sophisticated as a Libero FSM since each event
+   allows only one action, but this is easy to change.  Now, let's use a
+   GSL script to generate some VisualBasic code to calculate the action and
+   next state for a given state and event:
+
+       action = ""
+       select case cur_state
+       .for state
+           case "$(name)"
+               select case cur_event
+       .   for event
+                   case "$(name)"
+                       cur_state = "$(nextstate)"
+       .       for action
+                       action    = "$(name)"
+       .       endfor
+       .   endfor
+               end select
+       .endfor
+       end select
+
+   Today, GSLgen can produce this kind of code easily.  The next release
+   (GSL/2000) will be able to produce the kind of table-driven FSMs that
+   Libero produces.  At some point, GSLgen will replace the current code-
+   generation engine in Libero.
+
+
+   Date sent:      	Sat, 18 Dec 1999 13:18:38 -0600
+   From:           	Tim Pearcy <timp@mse.net>
+   Organization:   	Micro Images
+   Subject:        	Xitami Server
+   -----------------------------------------------------------------------
+   Hi folks,
+    Just a short note to say....Xitami is the best web server we have tried.
+   We are running 4 virtual servers on remote (Free) DNS and one main
+   server and this thing flies! I have tried Apache and Sambar and nothing
+   comes even close to the speed of Xitami when executing about 2000 CGI's
+   per day. Combined with ActiveState's Perl this thing is absolutely the
+   best damned piece of software I have ever seen. We are running Version
+   2.4d6 and I can't wait for the new version with the SSI's built in!  We
+   are averaging more than 34,000 total hits per day and have yet to have a
+   single problem. Thanks for a super piece of software!
+   T. Pearcy
+   http://mse.net/
+
+
+   People tell us that Xitami is at its best when handling dozens of
+   virtual hosts.  Apache starts to get slow when you do this.  Xitami
+   uses so few resources for each virtual host that we've heard of people
+   running hundreds of virtual hosts on one PC.
+
+
+== TERMINATE THE PROGRAM -...---...-..----....-.---..---...-...---.-...---.-
+
+   Liberetto is the official monthly journal of iMatix Corporation, and as
+   such should not be confused with an independent, intelligent, humorous
+   Internet magazine.  All intelligence or humor in this journal is purely
+   fictitious and any resemblance to actual intelligence or humor present
+   or past is totally coincidental.  Statements made in Liberetto are
+   liable to be facetious, ironic, or simply erroneous.  iMatix makes no
+   promise to get Liberetto out by the first of each month, or even in the
+   right century.
+
+   To unsubscribe, just send us an e-mail.
